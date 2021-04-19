@@ -110,3 +110,12 @@ body {
   display: block;
   margin: 0 auto 15px auto
 }
+.recording-now {
+  width: 440px;
+  height: 200px;
+  background: #ffffff url(images/prependers-recording.jpg) top left no-repeat;
+}
+.recording-now p {
+  font-size: 28px;
+  color: #ffffff;
+}
