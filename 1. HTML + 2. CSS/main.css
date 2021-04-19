@@ -156,7 +156,6 @@ label {
 input {
   display: block;
   margin-bottom: 15px;
-  width: 445px;
   font-size: 20px;
 }
 textarea {
@@ -164,4 +163,13 @@ textarea {
   margin-bottom: 15px;
   width: 445px;
   font-size: 20px;
+}
+input[type=text]{
+  width: 445px;
+}
+input[type=submit] {
+  width: 165px;
+}
+input[type=checkbox], label[for=on-tour] {
+  display: inline;
 }
