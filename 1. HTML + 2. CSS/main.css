@@ -45,3 +45,16 @@
       color: #000000;
       margin: 10px 0 10px 0;
     }
+/* Selector '.nav' tags nav class and changes it accordingly */
+.nav {
+  padding: 0;
+  padding-right: 20px;
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav li:last-child {
+  padding-right: 0;  
+}
