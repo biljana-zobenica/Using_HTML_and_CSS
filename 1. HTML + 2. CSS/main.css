@@ -103,8 +103,14 @@ body {
   text-decoration: none;
   color: #ff2244;
 }
+.bands-list img {
+  float: left;
+  padding-right: 15px;
+}
 .bands-list li {
   border: 1px solid #555555;
+  background-color: #ffffff;
+  height: 120px;
 }
 .header img {
   display: block;
@@ -120,4 +126,7 @@ body {
 .recording-now p {
   font-size: 28px;
   color: #ffffff;
+}
+.album img{
+  float: right;
 }
