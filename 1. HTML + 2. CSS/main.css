@@ -1,11 +1,11 @@
 /*Writing CSS rules*/
-    html, body, h1, h2, h3, ul, ol, li, p, a {
-    padding: 0;
-    border: 0;
-    margin: 0;
-    font: inherit;
-    font-size: 100%;
-  }
+html, body, h1, h2, h3, ul, ol, li, p, a {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font: inherit;
+  font-size: 100%;
+}
 /*Add background*/
 body {
   font-size: 16px;
@@ -13,58 +13,58 @@ body {
   background: #555555 url(images/bg-tile.png);
 }
 /* Selector 'a' tags and removes underline from text */
-    a {
-      text-decoration: none;
-    }
+a {
+  text-decoration: none;
+}
 /* Selector 'p' tags and changes text */
-    p {
-      color: dimgray;
-      margin-bottom: 10px;
-      line-height: 24px;
-    }
+p {
+  color: dimgray;
+  margin-bottom: 10px;
+  line-height: 24px;
+}
 /* Selector 'ul' tags an unordered list and changes settings */
-    ul {
-      padding: 0 0 0 30px;
-    }
-    li {
-      margin-bottom: 5px;
-      line-height: 22px;
-    }
+ul {
+  padding: 0 0 0 30px;
+}
+li {
+  margin-bottom: 5px;
+  line-height: 22px;
+}
 /* Selector 'ol' tags an ordered list and changes font size */
-    ol {
-      padding-left: 20px;
-    }
+ol {
+  padding-left: 20px;
+}
 
 /* Selector 'ol li' tags only children of an ordered list and changes font size */
-    ol li {
-      font-size: 20px;
-    }
+ol li {
+  font-size: 20px;
+}
 
 /* Selector 'h1' tags and changes text in h1 */
-    h1 {
-      font-size: 32px;
-      font-weight: bold;
-      margin: 15px 0 15px;
-      text-align: center;
-      font-family: Verdana, sans-serif;
-    }
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 15px 0 15px;
+  text-align: center;
+  font-family: Verdana, sans-serif;
+}
 /* Selector 'h2' tags and changes text in h2 */
-    h2 {
-      font-size: 22px;
-      font-weight: bold;
-      color: darkblue;
-      border-bottom: 1px solid #aaaaaa;
-      padding: 2px;
-      margin: 20px 0 5px 0;
-      font-family: Verdana, sans-serif;
-    }
+h2 {
+  font-size: 22px;
+  font-weight: bold;
+  color: darkblue;
+  border-bottom: 1px solid #aaaaaa;
+  padding: 2px;
+  margin: 20px 0 5px 0;
+  font-family: Verdana, sans-serif;
+}
 /* Selector 'h3' tags and changes text in h3 */
-    h3 {
-      font-size: 20px;
-      color: #000000;
-      margin: 10px 0 10px 0;
-      font-family: Verdana, sans-serif;
-    }
+h3 {
+  font-size: 20px;
+  color: #000000;
+  margin: 10px 0 10px 0;
+  font-family: Verdana, sans-serif;
+}
 /* Selector '.nav' tags nav class and changes it accordingly */
 .nav {
   padding: 0;
