@@ -1,0 +1,47 @@
+/*Writing CSS rules*/
+    html, body, h1, h2, h3, h4, ul, ol, li, p, a {
+    padding: 0;
+    border: 0;
+    margin: 0;
+  }
+/* Selector 'a' tags and removes underline from text */
+    a {
+      text-decoration: none;
+    }
+/* Selector 'p' tags and changes text */
+    p {
+      color: dimgray;
+      margin-bottom: 10px;
+    }
+/* Selector 'ol' tags an ordered list and changes font size */
+    ol {
+      padding-left: 20px;
+    }
+
+/* Selector 'ol li' tags only children of an ordered list and changes font size */
+    ol li {
+      font-size: 20px;
+    }
+/* Selector 'h1' tags and changes text in h1 */
+    h1 {
+      color: #000000;
+      margin: 0 0 15px 0;
+    }
+/* Selector 'h2' tags and changes text in h2 */
+    h2 {
+      font-size: 28px;
+      margin: 15px 0 15px;
+    }
+/* Selector 'h3' tags and changes text in h3 */
+    h3 {
+      font-size: 26px;
+      color: darkblue;
+      border-bottom: 1px solid #aaaaaa;
+      padding: 2px;
+      margin: 20px 0 5px 0;
+    }
+/* Selector 'h4' tags and changes text in h4 */
+    h4 {
+      color: #000000;
+      margin: 10px 0 10px 0;
+    }
