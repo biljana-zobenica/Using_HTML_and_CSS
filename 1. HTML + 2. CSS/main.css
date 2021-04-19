@@ -4,6 +4,10 @@
     border: 0;
     margin: 0;
   }
+/*Add background*/
+body {
+  background: #555555 url(images/bg-tile.png);
+}
 /* Selector 'a' tags and removes underline from text */
     a {
       text-decoration: none;
@@ -48,7 +52,9 @@
   padding-right: 20px;
   text-align: center;
 }
-
+.nav a {
+  color: #ee932a;
+}
 .nav li {
   display: inline;
 }
@@ -69,12 +75,14 @@
 
 .header {
   padding: 15px;
+  background: #242424 url(images/bg-header.png) top center no-repeat;
 }
 
 .content-section {
   padding: 15px;
   width: 450px;
   margin: 0 auto;
+  background: #dddddd url(images/bg-content.png) top left repeat;
 }
 
 .album {
