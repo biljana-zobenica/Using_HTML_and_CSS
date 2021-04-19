@@ -56,5 +56,15 @@
 }
 
 .nav li:last-child {
-  padding-right: 0;  
+  padding-right: 0;
+}
+
+.day-time {
+  color: #444444;
+  text-decoration: underline;
+}
+
+.concert-location {
+  color: #888888;
+  text-decoration: undeline;
 }
