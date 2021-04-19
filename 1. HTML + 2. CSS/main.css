@@ -6,6 +6,7 @@
   }
 /*Add background*/
 body {
+  font-family: garamond, serif;
   background: #555555 url(images/bg-tile.png);
 }
 /* Selector 'a' tags and removes underline from text */
@@ -32,6 +33,7 @@ body {
       font-size: 28px;
       margin: 15px 0 15px;
       text-align: center;
+      font-family: Verdana, sans-serif;
     }
 /* Selector 'h2' tags and changes text in h2 */
     h2 {
@@ -40,11 +42,13 @@ body {
       border-bottom: 1px solid #aaaaaa;
       padding: 2px;
       margin: 20px 0 5px 0;
+      font-family: Verdana, sans-serif;
     }
 /* Selector 'h3' tags and changes text in h3 */
     h3 {
       color: #000000;
       margin: 10px 0 10px 0;
+      font-family: Verdana, sans-serif;
     }
 /* Selector '.nav' tags nav class and changes it accordingly */
 .nav {
