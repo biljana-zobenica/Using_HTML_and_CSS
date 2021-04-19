@@ -68,3 +68,10 @@
   color: #888888;
   text-decoration: undeline;
 }
+
+.header {
+  padding: 15px;
+}
+.content-section {
+  padding: 15px;
+}
