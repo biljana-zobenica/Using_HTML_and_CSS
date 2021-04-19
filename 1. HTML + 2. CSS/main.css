@@ -3,6 +3,8 @@
     padding: 0;
     border: 0;
     margin: 0;
+    font: inherit;
+    font-size: 100%;
   }
 /*Add background*/
 body {
@@ -18,6 +20,15 @@ body {
     p {
       color: dimgray;
       margin-bottom: 10px;
+      line-height: 24px;
+    }
+/* Selector 'ul' tags an unordered list and changes settings */
+    ul {
+      padding: 0 0 0 30px;
+    }
+    li {
+      margin-bottom: 5px;
+      line-height: 22px;
     }
 /* Selector 'ol' tags an ordered list and changes font size */
     ol {
