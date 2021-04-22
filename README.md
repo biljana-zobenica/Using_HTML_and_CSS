@@ -9,4 +9,5 @@ Here are the chapters covered by the course:
 4. Images (Content images, Background images, Float images)
 5. Fonts and forms (Adjusting font styles and Creating web forms)
 
+The course consisted of 38 interactive challenges, which was super-useful to go through!
 All basic knowledge of HTML and CSS is applied to my personal website in the repository biljana-zobenica.github.io.
